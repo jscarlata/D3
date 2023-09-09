@@ -3,12 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble-Diagramm mit D3.js</title>
+    <title>Testdaten Ausgabe mittels D3.js</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <h1>Benutzung/Ansteuerungen von LEDs</h1>
-    <div id="chart"></div>
+
+    <div id="chartOptions">
+        <p>Type:
+        <button id="bubbleButton">Bubble</button>
+        <button id="blockButton">Block</button>
+        </p>
+    </div>
+
+    <div id="chartContainer"></div>
+
+    <footer>
+        <!-- Dein Footer-Inhalt hier -->
+        &copy; 2023 jscarlata
+    </footer>
+    
 
     <script src="./index.js" type="module"></script>
 </body>
